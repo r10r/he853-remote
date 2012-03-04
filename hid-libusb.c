@@ -33,8 +33,8 @@
 #include <pthread.h>
 
 /* GNU / LibUSB */
-#include "libusb.h"
-#include "iconv.h"
+#include <libusb.h>
+#include <iconv.h>
 
 #include "hidapi.h"
 
