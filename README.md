@@ -1,7 +1,7 @@
 # About
 
 The he853-remote project provides a library and CLI programm for the 
-homeeasy he853 433.92MHz USB RF remote control sender.
+[homeeasy he853 433.92MHz USB RF remote control sender](http://www.elro.eu/en/products/category/home_automation/home_easy/zenders2/pc_afstandsbediening_usb_dongle).
 The sender is used for toggling RF controlled power sockets.
 
 The library was is extracted from [roseasy](http://ros.org/wiki/roseasy)
