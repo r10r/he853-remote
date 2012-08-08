@@ -4,11 +4,11 @@ The he853-remote project provides a library and CLI programm for the
 homeeasy he853 433.92MHz USB RF remote control sender.
 The sender is used for toggling RF controlled power sockets.
 
-The library was is extracted from (roseasy)[http://ros.org/wiki/roseasy]
-which is a part of the(ROS (Robot Operating System))[http://www.ros.org/wiki/] project.
+The library was is extracted from [roseasy](http://ros.org/wiki/roseasy)
+which is a part of the [ROS (Robot Operating System)](http://www.ros.org/wiki/) project.
 
 Another project that provides a C# Windows SDK for the dongle is
-the (HE853 Control Project)[http://he853control.sourceforge.net/].
+the [HE853 Control Project](http://he853control.sourceforge.net/).
 
 ## Usage
 
