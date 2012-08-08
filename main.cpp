@@ -2,20 +2,12 @@
 #include <stdio.h>
 #include "he853.h"
 
-HE853Controller *remote = 0;
-
 int main(int argc, char **argv)
 {
-	printf("HomeEasy Stresstest.\nI will flood GER protocol on port 2000 with on and off.\n");
-
-	remote = new HE853Controller();
-
-	for (;;)
-	{
-		printf("Cycle...");
-		remote->sendEU((uint16_t)2000, (uint8_t)1);
-		remote->sendEU((uint16_t)2000, (uint8_t)0);
-		printf("done.\n");
-	}
+	int deviceId = atoi(argv[1]);
+	int command = atoi(argv[2]);
+	HE853Controller *remote = new HE853Controller();
+	printf("Sending command[%i] to deviceId[%i]\n", command, deviceId);
+	remote->sendEU((uint16_t)deviceId, (uint8_t)command);
 	return 0;
 }
