@@ -1,0 +1,2 @@
+# udev rule for he853 rf dongle
+SUBSYSTEMS=="usb", ATTR{idVendor}=="04d9", ATTR{idProduct}=="1357", OWNER="root", GROUP="he-dongle", MODE="0660"
